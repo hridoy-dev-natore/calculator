@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <section>
+            <!-- input -->
+            <div>
+                <input
+  type= "text" id="rusult" class="input input-bordered input-lg w-full max-w-xs" />
+            </div>
+            <!-- key -->
+            <div>
+                <div  class="keybord">
+                    <kbd onclick="cler()" class="kbd">AC</kbd>
+                    <kbd onclick="keybordvalue('()')" class="kbd">()</kbd>
+                    <kbd onclick="keybordvalue('%')" class="kbd">%</kbd>
+                    <kbd onclick="keybordvalue('/')" class="kbd">/</kbd>
+                    <kbd onclick="keybordvalue('7')" class="kbd">7</kbd>
+                    <kbd onclick="keybordvalue('8')" class="kbd">8</kbd>
+                    <kbd onclick="keybordvalue('9')" class="kbd">9</kbd>
+                    <kbd onclick="keybordvalue('*')" class="kbd">*</kbd>
+                    <kbd onclick="keybordvalue('4')" class="kbd">4</kbd>
+                    <kbd onclick="keybordvalue('5')" class="kbd">5</kbd>
+                    <kbd onclick="keybordvalue('6')" class="kbd">6</kbd>
+                    <kbd onclick="keybordvalue('-')" class="kbd">-</kbd>
+                    <kbd onclick="keybordvalue('1')" class="kbd">1</kbd>
+                    <kbd onclick="keybordvalue('2')" class="kbd">2</kbd>
+                    <kbd onclick="keybordvalue('3')" class="kbd">3</kbd>
+                    <kbd onclick="keybordvalue('+')" class="kbd">+</kbd>
+                    <kbd onclick="keybordvalue('0')" class="kbd">0</kbd>
+                    <kbd onclick="keybordvalue('.')" class="kbd">.</kbd>
+                    <kbd onclick="dels()" class="kbd">x</kbd>
+                    <kbd onclick="eg()" class="kbd">=</kbd>
+                 
+                  
+            </div>
+        </section>
+    </main>
+<script src="app.js"></script>
+</body>
+
+</html>
